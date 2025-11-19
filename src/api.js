@@ -1,5 +1,5 @@
 
-const API_BASE = 'http://localhost:4000/users'
+const API_BASE = 'https://nexevo-user-management.onrender.com/users'
 
 
 export async function fetchUsers() {

@@ -37,7 +37,7 @@ const NewUserModal = (props) => {
     };
 
     axios
-      .post("http://localhost:5000/users", data)
+      .post("https://nexevo-user-management.onrender.com/users", data)
       .then((res) => {
         message.success("User added!");
         props.onUserSaved(res.data);

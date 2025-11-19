@@ -44,7 +44,7 @@ const ViewUserModal = function(props) {
 
   async function handleSave() {
     try {
-      await axios.put("http://localhost:5000/users/" + user.id, formData);
+      await axios.put(`https://nexevo-user-management.onrender.com/users/${user.id}`, formData);
       message.success("User updated successfully!");
       if (onUserUpdated) {
         onUserUpdated();

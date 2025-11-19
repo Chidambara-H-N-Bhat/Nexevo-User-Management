@@ -10,4 +10,4 @@ export const MOCK_COUNTRIES = [
     { code: 'JP', name: 'Japan' },
 ];
 
-export const API_URL = 'http://localhost:5000/users';
+export const API_URL = 'https://nexevo-user-management.onrender.com/users';

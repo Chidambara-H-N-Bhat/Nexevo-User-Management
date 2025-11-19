@@ -13,7 +13,7 @@ const App = () => {
   
   const fetchUsers = () => {
     axios
-      .get("http://localhost:5000/users")
+      .get("https://nexevo-user-management.onrender.com/users")
       .then((res) => {
         setUsers(res.data);
       })
