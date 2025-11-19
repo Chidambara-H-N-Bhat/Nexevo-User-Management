@@ -43,7 +43,7 @@ const UsersTable = ({ users, onAddUser, onViewUser }) => {
         dataSource={users}
         columns={columns}
         rowKey={(record) => record.id}
-        pagination={{ pageSize: 5 }}
+        pagination={{ pageSize: 15 }}
       />
     </div>
   );
